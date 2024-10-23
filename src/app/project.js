@@ -5,24 +5,24 @@ export default function Projects(){
     return(
         <section className='flex flex-col gap-8'>
             <div className="flex flex-col gap-5 mt-20">
-                <p className='text-2xl font-semibold'>
+                <p className='text-center md:text-left text-2xl font-semibold'>
                     Projectos
                 </p>
-                <p className='text-xs font-light max-w-sm'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis felis in lacinia iaculis. Proin efficitur consequat pellentesque.
+                <p className='text-center md:text-left text-xs font-light md:max-w-sm'>
+                    Algunos de mis proyectos
                 </p>
             </div>
 
             <section className='flex flex-wrap gap-10 justify-center'>
                 {projectos.map((projectos, index) => (
-                    <div key={projectos.title} className='flex flex-row max-w-lg gap-8 border-emerald-700 border-2 rounded-2xl'>
+                    <div key={projectos.title} className='flex flex-col p-8 md:p-0 md:flex-row max-w-lg gap-8 border-emerald-700 border-2 rounded-2xl'>
                         <Image
-                            className='object-cover rounded-s-2xl'
+                            className='hidden md:flex object-cover md:rounded-s-2xl'
                             src={projectos.image}
                             width={200}
                             height={150}
                         />
-                        <aside className='flex flex-col gap-4 pt-6 pr-6 pb-6'>
+                        <aside className='flex flex-col gap-4 md:pt-6 md:pr-6 md:pb-6'>
                             <p className='text-xl font-bold'>
                                 {projectos.title}
                             </p>
@@ -42,7 +42,7 @@ export default function Projects(){
                                 ))}
                             </div>
                             
-                        
+                    
                             <section className='flex flex-wrap gap-5'>
                                 {projectos.web_url && (
                                     <a 

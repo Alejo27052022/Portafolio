@@ -7,7 +7,7 @@ export default function About() {
         <p>Acerca de mí</p>
       </section>
 
-      <section className="flex flex-row gap-10 justify-around">
+      <section className="flex flex-col md:flex-row gap-10 items-center md:justify-around">
         <Image
           className="rounded-lg"
           src={"/Images/profile.jpeg"}

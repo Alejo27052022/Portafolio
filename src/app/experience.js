@@ -5,11 +5,11 @@ export default function Experience(){
     return(
         <section>
             <div className="flex flex-col gap-5 mt-20">
-                <p className='text-2xl font-semibold'>
+                <p className='text-center md:text-left text-2xl font-semibold'>
                     Experiencia
                 </p>
-                <p className='text-xs font-light max-w-sm'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis felis in lacinia iaculis. Proin efficitur consequat pellentesque.
+                <p className='text-center md:text-left text-xs font-light md:max-w-sm'>
+                    Algunas de mis experiencias laborales que he tenido
                 </p>
             </div>
 

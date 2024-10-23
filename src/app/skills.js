@@ -6,10 +6,10 @@ export default function Skills(){
     return(
         <section>
             <div className="flex flex-col gap-5 mt-36">
-                <p className="text-2xl font-semibold">
+                <p className="text-center md:text-left text-2xl font-semibold">
                     Habilidades
                 </p>
-                <p className="text-xs font-light">
+                <p className="text-center md:text-left text-xs font-light">
                     Herramientas & Tecnologías
                 </p>
             </div>

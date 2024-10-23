@@ -5,7 +5,7 @@ import contact_image from "./components/contact_image";
 
 export default function Contact() {
   return (
-    <section className="flex flex-col gap-5 mt-20 justify-center items-center">
+    <section className="flex flex-col gap-5 mt-20 justify-center items-center text-center">
       <p className="text-sm font-bold">Contacto</p>
       <p className="text-2xl font-bold">¿Conversamos?</p>
       <p className="text-sm">
@@ -18,7 +18,7 @@ export default function Contact() {
             Cóntactame 
       </button>
 
-      <div className="flex flex-row gap-10 mt-3">
+      <div className="flex flex-wrap md:flex-row gap-10 mt-3">
             {contact_image.map((contact, index) => (
                 <Image
                     key={index}
