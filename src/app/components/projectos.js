@@ -1,6 +1,6 @@
 const projectos = [
   {
-    image: "/Images/Projecto_Bubble/portada.png",
+    image: "/Images/giteaUV_img.png",
     title: "GITEA UV",
     description:
       "Se desarrolló una aplicación móvil para la detección de datos de radiación UV de la ciudad de Riobamba, dando una alerta de precaución si se encuentra la radiación UV superior a 6, fue desarrollado esta aplicación móvil haciendo uso de una API REST y Kotlin.",
@@ -9,7 +9,7 @@ const projectos = [
     web_repo: "https://github.com/Alejo27052022/AppMobile-UV"
   },
   {
-    image: "/Images/Projecto_Bubble/portada.png",
+    image: "/Images/gitea_img.png",
     title: "GITEA",
     description:
       "Se desarrolló una landing page informativa para el grupo de investigación GITEA de la institución Escuela Superior Politécnica de Chimborazo, haciendo uso de la tecnología WordPress.",
@@ -18,7 +18,7 @@ const projectos = [
     web_url: "http://gitea.espoch.edu.ec:8085/",
   },
   {
-    image: "/Images/Projecto_Bubble/portada.png",
+    image: "/Images/bovinos_img.png",
     title: "Control Bovinos",
     description:
       "Se desarrolló una aplicación móvil informativa y además cálculos para el control ganadero para los estudiantes de Zootecnia de la institución la ESPOCH Sede Morona Santiago, haciendo uso de la tecnología Kotlin.",
@@ -27,7 +27,7 @@ const projectos = [
     web_repo: "https://github.com/Alejo27052022/App_Kotlin",
   },
   {
-    image: "/Images/Projecto_Bubble/portada.png",
+    image: "/Images/semaforizacion_img.png",
     title: "Semaforización",
     description:
       "Se desarrolló una Aplicación Web para un proyecto de vinculación llamado Semaforización a la Violencia de Género, se hizo uso del Framework Laravel y tecnologías adicionales para el panel administrativo y el control de registros.",
@@ -36,16 +36,7 @@ const projectos = [
     web_repo: "https://github.com/Alejo27052022/Semaforizacion_Laravel",
   },
   {
-    image: "/Images/Projecto_Bubble/portada.png",
-    title: "Sistema de Facturación",
-    description:
-      "Se desarrolló un sistema de facturación para una tienda de ropa, haciendo uso de la tecnología Java y para el almacenamiento de datos MySQL",
-    image2: ["/Images/mysql.png"],
-    button_repositorio: "Repositorio",
-    web_repo: "https://github.com/Alejo27052022/Facturation-System",
-  },
-  {
-    image: "/Images/Projecto_Bubble/portada.png",
+    image: "/Images/tour_img.png",
     title: "Tour Ecuador",
     description:
       "Se desarrolló una landing page sobre las ciudades del Ecuador haciendo uso de las tecnologías HTML5, CSS3 y JS",
@@ -57,7 +48,7 @@ const projectos = [
   },
 
   {
-    image: "/Images/Projecto_Bubble/portada.png",
+    image: "/Images/cevtec_img.png",
     title: "CEVTEC",
     description:
       "Se desarrolló un landing page al club CEVTEC de la institución ESPOCH Sede Morona Santiago mediante la participación de un concurso conformado por 3 estudiantes, se hizo uso de las tecnologías principales (HTML5, CSS3, JS) e incluyendo una base de datos MySQL",

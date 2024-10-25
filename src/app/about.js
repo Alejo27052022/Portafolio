@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 
 export default function About() {
@@ -37,7 +38,7 @@ export default function About() {
           </div>
 
           <button
-            onClick={""} 
+            onClick={() => window.open('https://drive.google.com/file/d/1rZUmr6Y7R4XqbbTYYsvwcHGjS6FjhNBO/view?usp=drive_link', '_blank')} 
             className="flex flex-row mt-7 bg-emerald-800 p-3 w-32 rounded-lg text-xs hover:bg-emerald-900 items-center gap-2 justify-center">
             
             Resumen
