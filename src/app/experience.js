@@ -15,7 +15,7 @@ export default function Experience(){
 
             <div className='flex flex-col mt-10 p-8 border-emerald-700 border-2 rounded-xl'>
                 {comp_experience.map((comp_experience, index) => (
-                    <article 
+                    <article
                         key={comp_experience.empresa}
                         className='flex flex-col gap-6'
                     >
@@ -30,12 +30,14 @@ export default function Experience(){
                                 {comp_experience.tiempo}
                             </p>
                         </section>
-                        <p className='text-sm'>
-                            {comp_experience.descripcion}
-                        </p>
+                        <ul className='list-disc list-inside text-sm'>
+                            {comp_experience.descripcion.map((item, itemIndex) => (
+                                <li key={itemIndex}>{item}</li>
+                            ))}
+                        </ul>
                         <section className='flex flex-row gap-6'>
                             {comp_experience.tecnologias.map((tecnologiasImg, imgIndex) => (
-                                <Image 
+                                <Image
                                     key={imgIndex}
                                     src={tecnologiasImg}
                                     width={35}
@@ -43,11 +45,8 @@ export default function Experience(){
                                 />
                             ))}
                         </section>
-
                     </article>
                 ))}
-
-
             </div>
         </section>
     )
