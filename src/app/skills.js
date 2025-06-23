@@ -29,7 +29,7 @@ export default function Skills(){
                     </div>
                 ))}
             </div>
-            <div className='flex gap-8 items-center justify-center flex-wrap mt-16'>
+            <div className='flex gap-10 items-center justify-center flex-wrap mt-16'>
                 {skills_image.map((skills_image, index) => (
                     <div>
                         <Image

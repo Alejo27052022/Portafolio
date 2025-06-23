@@ -14,6 +14,21 @@ const comp_experience = [
             '/Images/bubble.png',
             '/Images/figma.png'
         ]
+    },
+    {
+        empresa: 'iRoute - Solutions',
+        cargo: 'Desarrollador Junior',
+        tiempo: '2025 Marzo - Presente',
+        descripcion: [
+            'Estandarización de apis y optimización mediante SonarQube',
+            'Realización de documentación técnica y casos de uso para mejorar la comprensión y mantenimiento del código',
+            'Desarrollo de APIs RESTful aplicando optimizacion y rendimiento con estándares de la industria',
+        ],
+        tecnologias: [
+            '/Images/java.png',
+            '/Images/springboot.png',
+            '/Images/sonarqube.png'
+        ]
     }
 ]
 

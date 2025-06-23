@@ -12,7 +12,9 @@ const skills_image = [
     '/Images/git.png',
     '/Images/mongo.png',
     '/Images/mysql.png',
-    '/Images/kotlin.png'
+    '/Images/kotlin.png',
+    '/Images/java.png',
+    '/Images/springboot.png'
 ]
 
 export default skills_image
